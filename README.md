@@ -15,6 +15,4 @@ Install Play 2.2.3 and hit `play run` in the root directory of this project to s
 
 This project is Node/Sails based web front end.
 
-Install Node.js and hit `npm install` in the root directory of this project at first.
-
-Then hit `npm start` in the root directory of this project to start the web client and access to `http://localhost:1337/sample` via your web browser.
+Install Node.js and hit `npm install` in the root directory of this project at first. Then hit `npm start` to start the web client and access to `http://localhost:1337/sample` via your web browser.
