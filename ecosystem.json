@@ -1,0 +1,30 @@
+{
+  "apps" : [{
+    "name"      : "sails_sample",
+    "script"    : "app.js",
+    "env": {
+      "COMMON_VARIABLE": "true"
+    },
+    "env_production" : {
+      "NODE_ENV": "production"
+    }
+  }],
+  "deploy" : {
+    "production" : {
+      "user" : "vagrant",
+      "host" : "192.168.33.10",
+      "ref"  : "origin/master",
+      "repo" : "https://gitbucket.chibochibo.com/git/takezoe/sails_sample.git",
+      "path" : "/home/vagrant/sails_sample/production",
+      "post-deploy" : "pm2 startOrRestart ecosystem.json --env production"
+    },
+    "dev" : {
+      "user" : "vagrant",
+      "host" : "192.168.33.10",
+      "ref"  : "origin/master",
+      "repo" : "https://gitbucket.chibochibo.com/git/takezoe/sails_sample.git",
+      "path" : "/home/vagrant/sails_sample/development",
+      "post-deploy" : "pm2 startOrRestart ecosystem.json --env dev"
+    }
+  }
+}

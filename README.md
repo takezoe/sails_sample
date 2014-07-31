@@ -1,2 +1,2 @@
-sails_sample
-============
+# sails_sample
+### a Sails application
