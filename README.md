@@ -13,4 +13,4 @@ Hit `play run` in the root directory of this project to start the web API server
 
 This project is Node/Sails based web front end.
 
-Hit `npm start` in the root directory of this project to start the web client and access to http://localhost:1337/sample via your web browser.
+Hit `npm start` in the root directory of this project to start the web client and access to `http://localhost:1337/sample` via your web browser.
