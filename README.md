@@ -1,7 +1,9 @@
-sails_sample
+Sails Sample Application
 ============
 
-This is a sample application of combination of Scala/Play2 based web API server and Node/Sails based web front end. This repository contains 2 below projects:
+This is a sample application of combination of Scala/Play2 based web API server and Node/Sails based web frontend.
+
+This repository contains 2 below projects:
 
 ## sample_api_server
 
